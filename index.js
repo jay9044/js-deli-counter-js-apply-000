@@ -11,7 +11,7 @@ function nowServing(katzDeliLine){
     return 'There is nobody waiting to be served!';
   } else {
     firstPerson.push(katzDeliLine[0]);
-    katzDeliLine.shift();
+    katzDeliLine.shift(); // it will take that person from the que and to the nowserving
     return 'Currently serving ' + firstPerson[0] + '.';
   }
 }

@@ -25,7 +25,7 @@ function currentLine(katzDeliLine){
   for(var i=0; i < katzDeliLine.length; i++){
     results. push(parseInt([i]) + 1 +'. '+ katzDeliLine[i]);
   }
-  return "The line is currently: " + results.join(', ');
+  return "The line is currently: " + results.join(', '); //join() joins the elements of an array into a string, and returns the string
   }
 }
 
